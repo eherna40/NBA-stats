@@ -8,8 +8,11 @@ Así que de este modo he creado la api de forma interna en la aplicación
 LA aplicación consta de una pantalla  principal donde se visualizan ciertos jugadores, describiendo su equipo y su edad. Luego tenemos otra pantalla donde se puede detallar aún más la descripción del jugador.
 
 ## Prueba el código (npm start)
-Descarga el repositorio
-Y luego npm start para comenzar
+
+Descargar Repositorio
+npm i
+npm start
+ENJOY
 
 ## Créditos
 
