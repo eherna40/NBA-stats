@@ -9,9 +9,9 @@ LA aplicación consta de una pantalla  principal donde se visualizan ciertos jug
 
 ## Prueba el código (npm start)
 
-Descargar Repositorio
-npm i
-npm start
+Descargar Repositorio,
+npm i,
+npm start,
 ENJOY
 
 ## Créditos
