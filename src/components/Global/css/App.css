@@ -1,0 +1,9 @@
+body{
+    background: #1a1a1a; 
+    padding: 20px;
+}
+
+.App{
+    max-width: 1024px;
+    margin: 0 auto;
+}

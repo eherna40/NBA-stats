@@ -1,0 +1,133 @@
+.Profile{
+    background: #222;
+    margin: 0 auto;
+    min-height: 60vh;
+    padding: 40px;
+    padding-top: 5%;
+    padding-bottom: 15%; 
+    color: white;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+
+}
+.Profile::after{
+content: '';
+position: absolute;
+width: 200%;
+height: 100%;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1a1a1a+47,d6d6d6+100&0.02+47,1+100 */ /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  rgba(26,26,26,0.02) 47%,rgba(214,214,214,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: -o-linear-gradient(45deg,  rgba(26,26,26,0.02) 47%,rgba(214,214,214,1) 100%);
+background: linear-gradient(45deg,  rgba(26,26,26,0.02) 47%,rgba(214,214,214,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#051a1a1a', endColorstr='#d6d6d6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+bottom:-50px;
+left: 0px;
+-webkit-transform: rotate(-25deg);
+    -ms-transform: rotate(-25deg);
+        transform: rotate(-25deg);
+opacity: .4;
+z-index: -2;
+}
+.Player-image{
+    width: 90px;
+}
+.Birth-box{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    font-size: 20px;
+    width: 80%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.border{
+    width: 1px;
+    margin: 0 50px;
+    height: 50px;
+    background: grey;
+}
+
+.title{
+    font-size: 13px;
+    color:grey; 
+}
+.number{
+    font-size: 35px; 
+}
+.Players{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.Profile-image{
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    opacity: .5;
+}
+.Back{
+-webkit-box-shadow: -7px 10px 39px -5px rgba(0,0,0,1);
+box-shadow: -7px 10px 39px -5px rgba(0,0,0,1);
+width: 40px;
+height: 40px;
+margin-top: 10px;
+border-radius: 50%;
+background: #313348;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    cursor: pointer
+}
+.Back a{
+    color: white;
+    font-weight: 900;
+    font-size: 10px;
+
+}
+.Back:hover{
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1)
+
+}
+@media screen and (max-width: 610px) {
+    .Profile-image {
+       right: -40%;
+    }
+
+}
+@media screen and (max-width: 480px) {
+    .Profile-image {
+       right: -70%;
+       bottom: 0;
+    }
+    .Profile-image img{
+       width: 70%;
+    }
+
+}
+@media screen and (min-height: 1100px) {
+    .Profile-image {
+       bottom: 0;
+    }
+}

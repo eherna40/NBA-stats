@@ -1,0 +1,45 @@
+.Info-name{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.Info-name div{
+    margin-right: 10px;
+}
+.Info-name-label, .Info-birth-title{
+    color: grey;
+    font-weight: 900;
+    font-size: 12px;
+}
+.Info-name-description{
+    font-size: 30px;
+    font-weight: 900;
+}
+.Info-birth{
+        margin-top: 20px;
+
+}
+
+.Info-birth-box{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.month,.day,.year{
+    margin-right: 10px;
+}
+.month{
+    font-size: 30px;
+    font-weight: 900;
+}
+.day,.year{
+    color: yellow;
+    font-size: 16px;
+        font-weight: 900;
+}

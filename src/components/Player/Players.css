@@ -1,0 +1,51 @@
+
+
+.Player-box{
+    padding: 15px;
+    background: #222;
+    margin: 10px 15px;
+    border-radius: 10px;
+    color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    min-width: 180px;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+.Player-box:hover{
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
+    background:#223;
+}
+.Player-box-image{
+    width: 20px;
+    height: 20px;
+    background: white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.Equipment{
+    margin-right: 10px;
+}
+.Equipmente-title,.Age-title{
+    color: grey;
+    font-weight: 900;
+}
+.Equipmente-number, .Age-number{
+    color: yellow;
+}
+.Player-box-description{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between
+}

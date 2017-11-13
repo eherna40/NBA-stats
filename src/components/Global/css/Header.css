@@ -1,0 +1,38 @@
+
+.Header {
+  background-color: #222;
+  height: 70px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+.Header-content{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 30px;
+}
+.Logo{
+    height: 50px;
+    width: 50px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+.Title{
+    font-size: 20px;
+    font-weight: 900;
+    color: yellow;
+}
